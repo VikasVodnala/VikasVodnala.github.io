@@ -26,23 +26,24 @@ body {
   color: #e5e7eb;
   text-decoration: none;
 }
-
 .hero {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 120px 10%;
-  gap: 40px;
-}
+  flex-direction: column;   
+  align-items: flex-start;  
+  padding: 100px 10% 60px; 
+  gap: 20px;                
 
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;      
 .hero p {
   font-size: 1.2rem;
+  margin-bottom: 15px;     
 }
-
-.hero button {
-  padding: 10px 20px;
+.hero .btn {
+  padding: 12px 24px;
+  font-size: 1rem;
 }
-
 
 .hero-img {
   width: 260px;
@@ -108,18 +109,19 @@ body {
   margin-bottom: 40px;
   color: #ccc;
 }
-
 .contact-icons {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;             
+  flex-wrap: wrap;       
+  margin-top: 20px;
 }
 
 .icon-link {
-  font-size: 2rem;
+  font-size: 1.5rem;       
   color: #fff;
   background: #2c2c3e;
-  padding: 15px;
+  padding: 12px;            
   border-radius: 50%;
   transition: background 0.3s ease, transform 0.2s ease;
 }
@@ -128,10 +130,13 @@ body {
   background: #00bcd4;
   transform: scale(1.1);
 }
+
+
 footer {
   text-align: center;
   padding: 20px;
 }
+
 
 
 
