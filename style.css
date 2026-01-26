@@ -90,10 +90,49 @@ body {
   border: none;
 }
 
+.contact {
+  background: #1e1e2f;
+  color: #fff;
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #00bcd4;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #ccc;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.icon-link {
+  font-size: 2rem;
+  color: #fff;
+  background: #2c2c3e;
+  padding: 15px;
+  border-radius: 50%;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.icon-link:hover {
+  background: #00bcd4;
+  transform: scale(1.1);
+}
 footer {
   text-align: center;
   padding: 20px;
 }
+
 
 
 
